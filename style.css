@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'InterTight';
+     src: 
+         url('Inter_Tight/static/InterTight-Regular.ttf'),
+         url('Inter_Tight/static/InterTight-Thin.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'InterTight', sans-serif;
+}
+.navbar {
+    border-bottom: 1px solid #B1A1A1;
+  }
+.hero-section {
+    background: url('images/image_fx_\ \(1\)\ 1.png') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    padding-left: 1rem;
+}
+.navbar-brand{
+    margin-left: 2rem;
+}
+.img-tag{
+    margin-bottom: 20px;
+}
+.hero-sect-2{
+    background-color: #F8FAFC;
+    padding-bottom: 10px;
+}
+.hero-section-caption1 h1{
+    font-weight: 600;
+    font-size: 30px;
+    width: 85%;
+    text-align: left;
+}
+
+.hero-btn1{
+    background-color: #1B4A0E;
+    border: 0.1px solid white;
+    border-radius: 8px;
+}
+.hero-btn2{
+    background-color: transparent;
+    border: 0.3px solid white;
+    color: white;
+    margin-left: 8px;
+    border-radius: 3px;
+    border-radius: 8px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .hero-section{
+        height: 100vh;
+    }
+    .hero-section-caption1 h1{
+        font-weight: 600;
+        font-size: 66px;
+        width: 60%;
+        padding: 1rem;
+        margin: 7rem 0 7rem 0;
+    }
+    .hero-section-img{
+        display: block !important;
+    }
+    .hero-section-caption1 div{
+        margin-left: 0.7rem;
+    }
+    .hero-flour{
+        font-size: 65px;
+        margin-top: 7rem;
+    }
+    .hero-slider{
+        margin: 10rem 4rem;
+    }
+    .hero-slider-div h3{
+        font-size: 50px;
+        font-weight: 600;
+        color: #292925;
+    }
+    .hero-btn1{
+        background-color: #1B4A0E;
+        border: 0.1px solid white;
+        border-radius: 8px;
+    }
+    #hero-btn2{
+        background-color: transparent;
+        border: 0.3px solid white;
+        color: white;
+        margin-left: 8px;
+        border-radius: 3px;
+        border-radius: 8px;
+        display:  block !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
