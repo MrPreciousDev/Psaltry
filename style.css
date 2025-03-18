@@ -31,6 +31,7 @@ body {
 }
 .img-tag{
     margin-bottom: 20px;
+    /* width: 100%; */
 }
 .hero-sect-2{
     background-color: #F8FAFC;
@@ -38,24 +39,32 @@ body {
 }
 .hero-section-caption1 h1{
     font-weight: 600;
-    font-size: 30px;
+    font-size: 45px;
     width: 85%;
     text-align: left;
 }
-
 .hero-btn1{
     background-color: #1B4A0E;
     border: 0.1px solid white;
+    border-radius: 3px;
+    margin-top: 0.5rem;
+    padding: 5px;
+
+}
+
+/*.hero-btn1{
+    background-color: #1B4A0E;
+    border: 0.1px solid white;
     border-radius: 8px;
+    margin-top: 0.5rem;
 }
 .hero-btn2{
     background-color: transparent;
     border: 0.3px solid white;
     color: white;
     margin-left: 8px;
-    border-radius: 3px;
     border-radius: 8px;
-}
+} */
 
 
 @media screen and (min-width: 768px) {
@@ -72,9 +81,6 @@ body {
     .hero-section-img{
         display: block !important;
     }
-    .hero-section-caption1 div{
-        margin-left: 0.7rem;
-    }
     .hero-flour{
         font-size: 65px;
         margin-top: 7rem;
@@ -83,24 +89,44 @@ body {
         margin: 10rem 4rem;
     }
     .hero-slider-div h3{
-        font-size: 50px;
+        font-size: 58px;
         font-weight: 600;
         color: #292925;
     }
     .hero-btn1{
         background-color: #1B4A0E;
         border: 0.1px solid white;
-        border-radius: 8px;
+        border-radius: 3px;
+        padding: 7px;
+        margin-top: -3rem ;
+        margin-left: 1rem;
     }
     #hero-btn2{
         background-color: transparent;
-        border: 0.3px solid white;
+        border: 0.1px solid white;
         color: white;
+        padding: 7px;
+        margin-top: -3rem ;
         margin-left: 8px;
-        border-radius: 3px;
+        border-radius: 5px;
+        display:  block !important;
+    } 
+    /* .hero-btn1{
+        background-color: #1B4A0E;
+        border: 0.1px solid white;
+        padding: 5px;
+        border-radius: 8px;
+        margin-left: 0.5rem;
+    }
+    #hero-btn2{
+        background-color: transparent;
+        border: 0.1px solid white;
+        color: white;
+        padding: 5px;
+        margin-left: 8px;
         border-radius: 8px;
         display:  block !important;
-    }
+    } */
 
 
 
